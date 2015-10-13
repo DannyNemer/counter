@@ -1,7 +1,7 @@
 {
   "name": "counter",
   "version": "0.0.1",
-  "description": "A counter for Node.js.",
+  "description": "A counter for profiling in Node.js.",
   "main": "counter.js",
   "directories": {
     "doc": "doc"

@@ -1,6 +1,6 @@
 # counter
 
-A counter for Node.js useful for profiling.
+A counter for profiling in Node.js.
 
 #### Installation
 ```shell
@@ -51,7 +51,7 @@ counter.endAll()
 ### <a id="counter-count"></a>`counter.count(label)`
 <a href="#counter-count">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L34 "View in source") [&#x24C9;][1]
 
-Counts the number of times a section of code is reached, identified by `label`. Use `counter.end(label)` to print the counter's value. This is useful for profiling complex programs.
+Counts the number of times a section of code is reached, identified by `label`. Use `counter.end(label)` to print the counter's value.
 
 #### Arguments
 1. `label` *(string)*: The counter identifier.

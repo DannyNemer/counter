@@ -1,6 +1,6 @@
 /**
  * @license
- * counter 0.0.1 - A counter for Node.js.
+ * counter 0.0.1 - A counter for profiling in Node.js.
  * Copyright 2015 Danny Nemer
  * Available under MIT license <http://opensource.org/licenses/MIT>
  */
@@ -16,7 +16,7 @@ var util = require('dantil')
 var _counts = new Map()
 
 /**
- * Counts the number of times a section of code is reached, identified by `label`. Use `counter.end(label)` to print the counter's value. This is useful for profiling complex programs.
+ * Counts the number of times a section of code is reached, identified by `label`. Use `counter.end(label)` to print the counter's value.
  *
  * @static
  * @memberOf counter
