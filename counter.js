@@ -68,8 +68,8 @@ exports.end = function (label) {
  *
  * counter.endAll()
  * // => Resets all counts to 0
- * // => Prints: even: 50
- * //            odd: 50
+ * // => Prints "even: 50
+ * //            odd: 50"
  */
 exports.endAll = function () {
 	_counts.forEach(function(count, label) {
