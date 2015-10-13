@@ -1,0 +1,35 @@
+{
+  "name": "counter",
+  "version": "0.0.1",
+  "description": "A counter for Node.js.",
+  "main": "counter.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "dantil": "github:dannynemer/dantil"
+  },
+  "devDependencies": {
+    "docdown": "github:dannynemer/docdown"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "node ./doc/parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DannyNemer/counter.git"
+  },
+  "keywords": [
+    "counter",
+    "count",
+    "profile",
+    "profiling"
+  ],
+  "author": "Danny Nemer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DannyNemer/counter/issues"
+  },
+  "homepage": "https://github.com/DannyNemer/counter#readme"
+}
