@@ -55,7 +55,7 @@ counter.endAll()
 ### <a id="counter-count"></a>`counter.count(label)`
 <a href="#counter-count">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L34 "View in source") [&#x24C9;][1]
 
-Counts the number of times a section of code is reached, identified by `label`. Use `counter.end(label)` to print the counter's value.
+Increments the invocation count for `label`. Use `counter.end(label)` or `counter.endAll()` to print the counter's value. This is useful for profiling the number of times a section of code is reached.
 
 #### Arguments
 1. `label` *(string)*: The counter identifier.
@@ -79,7 +79,7 @@ counter.end('even')
 ### <a id="counter-end"></a>`counter.end(label)`
 <a href="#counter-end">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L46 "View in source") [&#x24C9;][1]
 
-Prints (and resets the value of) the number of calls of `counter.count(label)`.
+Prints (and resets the value of) the number of `counter.count(label)` invocations.
 
 #### Arguments
 1. `label` *(string)*: The counter identifier.
@@ -93,7 +93,7 @@ Prints (and resets the value of) the number of calls of `counter.count(label)`.
 ### <a id="counter-endAll"></a>`counter.endAll`
 <a href="#counter-endAll">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L74 "View in source") [&#x24C9;][1]
 
-Prints (and resets) the values of all counters used on `counter.count()`. Does not print counters that are never reached (and never have their keys initialized).
+Prints (and resets the values of) all invocation counts (identified by different labels) recorded by `counter.count()`. Does not print counters that are never reached (having not initialized their keys).
 
 #### Example
 ```js
