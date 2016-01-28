@@ -93,10 +93,10 @@ Prints (and resets the value of) the number of `counter.count(label)` invocation
 ### <a id="counter-endAll"></a>`counter.endAll`
 <a href="#counter-endAll">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L73 "View in source") [&#x24C9;][1]
 
-Prints (and resets the values of) all invocation counts (identified by different labels) recorded by `counter.count()`. Does not print counters that are never reached (having not initialized their keys).
+Prints (and resets the values of) the counter value of each label recorded by `counter.count()`, and each counter's value as a percentage of all counters.
 <br>
 <br>
-Prints counts in order of decreasing value.
+Does not print counters that are never reached (having not initialized their keys). Prints counts in order of decreasing value.
 
 #### Example
 ```js
