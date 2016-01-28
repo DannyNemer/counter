@@ -77,7 +77,7 @@ counter.end('even')
 <!-- div -->
 
 ### <a id="counter-end"></a>`counter.end(label)`
-<a href="#counter-end">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L46 "View in source") [&#x24C9;][1]
+<a href="#counter-end">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L45 "View in source") [&#x24C9;][1]
 
 Prints (and resets the value of) the number of `counter.count(label)` invocations.
 
@@ -91,7 +91,7 @@ Prints (and resets the value of) the number of `counter.count(label)` invocation
 <!-- div -->
 
 ### <a id="counter-endAll"></a>`counter.endAll`
-<a href="#counter-endAll">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L74 "View in source") [&#x24C9;][1]
+<a href="#counter-endAll">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L71 "View in source") [&#x24C9;][1]
 
 Prints (and resets the values of) all invocation counts (identified by different labels) recorded by `counter.count()`. Does not print counters that are never reached (having not initialized their keys).
 
