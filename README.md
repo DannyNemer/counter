@@ -91,9 +91,12 @@ Prints (and resets the value of) the number of `counter.count(label)` invocation
 <!-- div -->
 
 ### <a id="counter-endAll"></a>`counter.endAll`
-<a href="#counter-endAll">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L71 "View in source") [&#x24C9;][1]
+<a href="#counter-endAll">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L73 "View in source") [&#x24C9;][1]
 
 Prints (and resets the values of) all invocation counts (identified by different labels) recorded by `counter.count()`. Does not print counters that are never reached (having not initialized their keys).
+<br>
+<br>
+Prints counts in order of decreasing value.
 
 #### Example
 ```js
