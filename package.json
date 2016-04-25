@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A counter for profiling in Node.js.",
   "main": "counter.js",
+  "files": [
+    "counter.js"
+  ],
   "directories": {
     "doc": "doc"
   },
