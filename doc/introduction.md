@@ -1,4 +1,4 @@
-A counter for profiling in Node.js.
+A profiling counter for Node.js.
 
 #### Installation
 ```shell
