@@ -90,13 +90,24 @@ Prints (and resets the value of) the number of `counter.count(label)` invocation
 <!-- div -->
 
 ### <a id="counter-endAll"></a>`counter.endAll`
-<a href="#counter-endAll">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L72 "View in source") [&#x24C9;][1]
+<a href="#counter-endAll">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L73 "View in source") [&#x24C9;][1]
 
 Prints (and resets the values of) the counter value of each label recorded by `counter.count()`, and each counter's value as a percentage of all counters.
 <br>
 <br>
 Does not print counters that are never reached (having not initialized their keys). Prints counts in order of decreasing value.
 
+#### Example
+```js
+for (var i = 0; i < 99; ++i) {
+  counter.count(i % 2 === 0 ? 'even' : 'odd')
+}
+
+counter.endAll()
+// => Prints counts for all labels and resets all to 0
+```
+Output:
+<br><img src="https://raw.githubusercontent.com/DannyNemer/counter/master/doc/counter-endAll-example.jpg" alt="counter.endAll() example output"/>
 * * *
 
 <!-- /div -->

@@ -58,16 +58,17 @@ exports.end = function (label) {
  * @static
  * @memberOf counter
  * @example
- * @example
  *
  * for (var i = 0; i < 99; ++i) {
- * 	counter.count(i % 2 === 0 ? 'even' : 'odd')
+ *   counter.count(i % 2 === 0 ? 'even' : 'odd')
  * }
  *
  * counter.endAll()
- * // => Resets all counts to 0
- * // => Prints "even: 50 (50.5%)
- * //            odd: 49 (49.5%)"
+ * // => Prints counts for all labels and resets all to 0
+ * ```
+ * Output:
+ * <br><img src="https://raw.githubusercontent.com/DannyNemer/counter/master/doc/counter-endAll-example.jpg" alt="counter.endAll() example output"/>
+ * ```
  */
 exports.endAll = function () {
 	// Sort counts by decreasing value.
