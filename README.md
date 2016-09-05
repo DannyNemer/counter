@@ -54,7 +54,7 @@ counter.endAll()
 ### <a id="counter-count"></a>`counter.count(label)`
 <a href="#counter-count">#</a> [&#x24C8;](https://github.com/DannyNemer/counter/blob/master/counter.js#L34 "View in source") [&#x24C9;][1]
 
-Increments the invocation count for `label`. Use `counter.end(label)` or `counter.endAll()` to print the counter's value. This is useful for profiling the number of times a section of code is reached.
+Increments the invocation count for `label`. Use `counter.end(label)` or `counter.endAll()` to print the counter's value. This is useful to profile the number of times a section of code is reached.
 
 #### Arguments
 1. `label` *(string)*: The counter identifier.
